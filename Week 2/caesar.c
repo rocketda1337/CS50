@@ -21,7 +21,7 @@ int main(int argc, string argv[])
     else if (argc != 3)
     {
         printf("Usage ./caesar <key>\n");
-        printf("OPTINAL: 2nd argument message\n");
+        printf("OPTINAL: 2nd argument <message>\n");
         printf("Key must be 1 or more\n");
         return 1;
     }
